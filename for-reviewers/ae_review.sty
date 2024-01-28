@@ -1,0 +1,33 @@
+
+\usepackage{ifthen}
+\usepackage{amssymb}
+
+\newcommand{\aerdisclaimer}{%
+{\footnotesize{}\textbf{Disclaimer:} This Artifact Evaluation Report was crafted by volunteers with the goal of enhancing reproducibility in our research domain. The time period allocated for the reproducibility analysis was constrained by paper notification deadlines and camera-ready submission dates. Furthermore, the compute hours in the shared infrastructure (e.g., Chameleon Cloud) available to the authors of this report were limited and restricted the scope and quantity of experiments in the review phase. 
+Consequently, the inability to reproduce certain artifacts within this evaluation should not be interpreted as definitive evidence of their irreproducibility. 
+Limitations in the time allocated to this review and the compute resources available to the reviewers may have prevented a positive outcome.
+Furthermore, reviewers assess the reproducibility of the artifacts provided by the authors; however, they are not accountable for verifying that the artifacts support the main claims of the paper.
+}}
+
+\newcommand{\aeroverview}{%
+\section{Overview of Reproduction of Artifacts}
+The following table provides an overview of each computational artifact's reproducibility status. Artifact IDs correspond to those in the AD/AE Appendices.
+}
+
+\newcommand{\aerrepoduction}{%
+\section{Reproduction of Computational Artifacts}%
+}
+
+\newcommand{\aerstatus}[1]{%
+    \ifthenelse{\equal{#1}{1}}%
+    {$\bullet$}%
+    {$\circ$}%
+}
+
+\newcommand{\aerwhen}{\subsection{Timeline}}
+\newcommand{\aerwhere}{\subsection{Computational Environment and Resources}}
+\newcommand{\aerwhat}{\subsection{Details on Artifact Reproduction}}
+
+\newenvironment{aerhint}
+{\color{gray}}
+{}

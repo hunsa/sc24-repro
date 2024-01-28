@@ -1,0 +1,97 @@
+\documentclass[conference]{IEEEtran}
+
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{ae_review}
+
+\begin{document}
+
+\title{Artifact Evaluation Report}
+
+\author{\IEEEauthorblockN{Given Name Surname}
+\IEEEauthorblockA{\textit{dept. name of organization} \\
+\textit{name of organization}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{Given Name Surname}
+\IEEEauthorblockA{\textit{dept. name of organization} \\
+\textit{name of organization}\\
+City, Country \\
+email address or ORCID}
+}
+
+\maketitle
+
+\aeroverview
+
+\begin{center}
+\begin{tabular}{cccc}
+\toprule 
+Artifact ID & Available & Functional & Replicated \\
+\midrule 
+$A_1$ &  \aerstatus{1} & \aerstatus{1} & \aerstatus{1} \\
+$A_2$ &  \aerstatus{1} & \aerstatus{1} & \aerstatus{1} \\
+$A_3$ &  \aerstatus{1} & \aerstatus{0} & \aerstatus{0} \\
+$\ldots$ &  \\
+\midrule 
+Badge awarded &  yes & no & no \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\aerrepoduction
+
+\aerwhen
+
+\begin{aerhint}
+\begin{itemize}
+    \item State when the experiments were done.
+    \item e.g., "The artifact evaluation was conducted from July 24, 2024, to July 31, 2024."
+    \item e.g., "Artifact evaluation was carried out on July 24, 2024."
+\end{itemize}
+\end{aerhint}
+
+\aerwhere
+
+\begin{aerhint}
+\begin{itemize}
+    \item Specify the computational resources utilized for experiments.
+    \item e.g., "The experiments conducted for artifact evaluation were performed on Chameleon Cloud."
+    \item Provide more details if different computational resources were used for analyzing different computational artifacts.
+\end{itemize}
+\end{aerhint}
+
+\aerwhat
+
+
+\begin{aerhint}
+\begin{itemize}
+    \item Describe the procedures undertaken to reproduce the computational artifacts detailed in the AD/AE Appendices.
+    \item The detail level in this section can differ. If the procedures work as outlined in the AD/AE Appendices, a reference to these appendices suffices, confirming successful execution of the steps.
+    In such instances, a brief statement for each computational artifact is sufficient.
+    \item Generally, writing a brief paragraph about either the successful reproduction or the absence thereof of each computational artifact created by the authors is preferable.
+    \item When facing issues in reproducing the computational artifacts, offer a high-level overview of the encountered problems. Omitting specific details is acceptable. For instance, it is sufficient to state that code compilation failed on machine X with compiler Y, without including the exact error messages.
+    \item In the AE Report, potential shortcomings in the provided AD/AE Appendices that should be reported could include:
+    \begin{itemize}
+        \item \textbf{Unanticipated environmental variables:} Differences in computational environments that were not accounted for in the AD/AE Appendices.
+        \item \textbf{Implicit assumptions:} Assumptions made by the original authors that are not explicitly documented.
+        \item \textbf{Versioning issues:} Discrepancies arising from different versions of software or dependencies that were not detailed in the appendices.
+        \item \textbf{Undocumented steps or procedures:} Any critical steps or procedures that the authors may have inadvertently left out of the appendix.
+        \item \textbf{Data accessibility:} Challenges in accessing or using the data required for reproduction, which might not be covered in the appendices.
+        \item \textbf{User-defined parameters:} Lack of clarity about user-defined parameters or settings required for running the experiments.
+        \item \textbf{Hardware-specific issues:} Certain computational artifacts may behave differently on varying hardware configurations, which might not be addressed in the appendices.
+        \item \textbf{Network dependencies:} Any network-related dependencies or configurations that were not explicitly mentioned.
+    \end{itemize}
+\end{itemize}
+\end{aerhint}
+
+\aerdisclaimer
+
+\end{document}
