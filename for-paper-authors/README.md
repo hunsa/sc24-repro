@@ -1,6 +1,6 @@
 # SC24 Guidelines for Paper Authors
 
-- Ensure the subsequent **two lines are commented out** prior to submitting the appendix!
+- Ensure the subsequent **two lines are commented out** prior to submitting the appendix! Ensure all text is in black; remove any blue text.
   ```latex
   %\usetag{explanation}
   %\usetag{example}
