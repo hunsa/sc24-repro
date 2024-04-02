@@ -1,5 +1,11 @@
 # SC24 Guidelines for Paper Authors
 
+- Ensure the subsequent **two lines are commented out** prior to submitting the appendix!
+  ```latex
+  %\usetag{explanation}
+  %\usetag{example}
+  ```
+
 ## Can authors reference figures or tables from the AD/AE Appendices in the paper?
 
 No, a paper should be self-consistent, as reviewers assess solely the manuscript.
