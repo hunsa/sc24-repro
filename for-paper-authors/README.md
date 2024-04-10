@@ -26,6 +26,11 @@ IMPORTANT: When **submitting the AD Appendix** (as well as the AE Appendix later
 After paper acceptance, authors can request badges by providing an AE Appendix. The AE Appendix can be thought of
 showing the Reproducibility reviewers that your artifact, described in the AD Appendix,  is indeed complete, functional, or reproducible. The AE Appendix evaluation will be conducted in a double-open manner, simplifying the process for authors to grant access to specific hardware required by Reproducibility reviewers.
 
+## Is access to Chameleon required for submitting the AD Appendix?
+
+No, the computational artifact(s) in the AD Appendix should be described in a general manner.
+
+Chameleon is only needed when requesting badges (when submitting the AE Appendix). Then, authors need to show in the AE Appendix that their description from the AD Appendix is indeed exercisable.
 
 ## Can authors reference figures or tables from the AD/AE Appendices in the paper?
 
@@ -35,7 +40,7 @@ Accordingly, authors should avoid forward referencing figures or tables in the A
 Authors can incorporate a "conventional" appendix into their manuscript, which will count towards the 10-page limit, ensuring it is integrated into the main document.
 
 In contrast, the AD/AE Appendices should only be used to describe the computational artifacts (AD)
-and how to execute them by example on a designated computational plaform (AE).
+and how to execute them by example on a designated computational platform (AE).
 
 ## How to deal with proprietary code or other legal constraints?
 
