@@ -9,6 +9,8 @@ This repository functions as an extra source of information on topics associated
 
 A LaTeX template for the AD/AE Appendices is provided in [for-paper-authors](for-paper-authors).
 
+Also, see the supporting [guidelines](for-paper-authors).
+
 Paper authors should carefully read the instructions on the [SC24 AD/AE Process & Badges page](https://sc24.supercomputing.org/program/papers/reproducibility-appendices-badges/).
 
 

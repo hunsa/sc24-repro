@@ -1,10 +1,31 @@
 # SC24 Guidelines for Paper Authors
 
+Here, we compile a list of frequently asked questions concerning the AD/AD Appendices.
+
+## Stick to the Template
+
 - Ensure the subsequent **two lines are commented out** prior to submitting the appendix! Ensure all text is in black; remove any blue text.
   ```latex
   %\usetag{explanation}
   %\usetag{example}
   ```
+
+- Use the provided LaTeX template!
+
+- Do not alter the template, i.e., do not add author names, affiliations, etc.
+
+- Do not misuse the AD/AE Appendices to include additional information apart from the artifacts. Do not include mathematical proofs in these appendices.
+
+
+## Anonymity of AD/AE Appendices
+
+The Reproducibility committee works on Linklings in a single-anonymous manner, which means that authors can reveal their identity on GitHub or Zenodo or other platforms.
+
+IMPORTANT: When **submitting the AD Appendix** (as well as the AE Appendix later), authors **do not have to hide their identity**. We ensure that authors' names are not revealed to the Papers committee, which works dual-anonymously, which is different from the Reproducibility committee.
+
+After paper acceptance, authors can request badges by providing an AE Appendix. The AE Appendix can be thought of
+showing the Reproducibility reviewers that your artifact, described in the AD Appendix,  is indeed complete, functional, or reproducible.
+
 
 ## Can authors reference figures or tables from the AD/AE Appendices in the paper?
 
