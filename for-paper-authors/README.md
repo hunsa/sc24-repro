@@ -24,7 +24,7 @@ The Reproducibility committee works on Linklings in a single-anonymous manner, w
 IMPORTANT: When **submitting the AD Appendix** (as well as the AE Appendix later), authors **do not have to hide their identity**. We ensure that authors' names are not revealed to the Papers committee, which works dual-anonymously, which is different from the Reproducibility committee.
 
 After paper acceptance, authors can request badges by providing an AE Appendix. The AE Appendix can be thought of
-showing the Reproducibility reviewers that your artifact, described in the AD Appendix,  is indeed complete, functional, or reproducible.
+showing the Reproducibility reviewers that your artifact, described in the AD Appendix,  is indeed complete, functional, or reproducible. The AE Appendix evaluation will be conducted in a double-open manner, simplifying the process for authors to grant access to specific hardware required by Reproducibility reviewers.
 
 
 ## Can authors reference figures or tables from the AD/AE Appendices in the paper?
