@@ -16,7 +16,6 @@ Here, we compile a list of frequently asked questions concerning the AD/AD Appen
 
 - Do not misuse the AD/AE Appendices to include additional information apart from the artifacts. Do not include mathematical proofs in these appendices.
 
-
 ## Anonymity of AD/AE Appendices
 
 The Reproducibility committee works on Linklings in a single-anonymous manner, which means that authors can reveal their identity on GitHub or Zenodo or other platforms.
@@ -25,6 +24,16 @@ IMPORTANT: When **submitting the AD Appendix** (as well as the AE Appendix later
 
 After paper acceptance, authors can request badges by providing an AE Appendix. The AE Appendix can be thought of
 showing the Reproducibility reviewers that your artifact, described in the AD Appendix,  is indeed complete, functional, or reproducible. The AE Appendix evaluation will be conducted in a double-open manner, simplifying the process for authors to grant access to specific hardware required by Reproducibility reviewers.
+
+## Do I need to a (Zenodo) DOI in the AD Appendix?
+
+In general, the AD Appendix should contain an artifact that is publishable, as authors don't have the obligation to update the AD Appendix after acceptance.
+
+However, many authors have concerns that a DOI would make the source code of possibly rejected papers public, which is undesirable.
+
+To make things simpler, you may either:
+1. reference a GitHub/Gitlab repo in the AD Appendix and create DOIs later in the AE stage, or
+2. include a link to a private repository. Since the AD appendix will only be accessible by members of the Reproducibility committee, it will neither be public nor shared with the Papers committee. You will have to create a public DOI once the paper is accepted.
 
 ## Is access to Chameleon required for submitting the AD Appendix?
 
