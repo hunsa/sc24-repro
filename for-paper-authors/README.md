@@ -29,7 +29,7 @@ showing the Reproducibility reviewers that your artifact, described in the AD Ap
 
 In general, the AD Appendix should contain an artifact that is publishable, as authors don't have the obligation to update the AD Appendix after acceptance.
 
-However, many authors have concerns that a DOI would make the source code of possibly rejected papers public, which is undesirable.
+However, numerous authors have concerns that a DOI would make the source code of possibly rejected papers public, which is undesirable.
 
 To make things simpler, you may either:
 1. reference a GitHub/Gitlab repo in the AD Appendix and create DOIs later in the AE stage, or
