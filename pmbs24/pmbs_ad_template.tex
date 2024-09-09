@@ -1,0 +1,213 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tagging}
+
+\usepackage{sc24repro}
+
+% Uncomment/comment the following usetag lines 
+% if you would like to get an explanation or an example.
+% Don't forget to comment them for the final submission.
+\usetag{explanation}
+\usetag{example}
+
+\begin{document}
+
+\twocolumn[%
+{\begin{center}
+\Huge
+Appendix: Artifact Description/Artifact Evaluation        
+\end{center}}
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  AD Appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendixAD
+
+\section{Overview of Contributions and Artifacts}
+
+\subsection{Paper's Main Contributions}
+
+\artexpl{
+Provide a list of all main contributions of the paper.
+}
+
+\artsampl{
+\begin{description}
+\item[$C_1$] This is the 1st contribution.
+\item[$C_2$] This is the 2nd contribution.
+\item[$C_3$] This is the 3rd contribution.
+\end{description}
+}
+
+
+\subsection{Computational Artifacts}
+
+\artexpl{
+List the computational artifacts related to this paper along with their respective DOIs. Note that all computational artifacts may be archived under a single DOI.
+}
+
+\artsampl{
+\begin{description}
+\item[$A_1$] https://doi.org/YY.YYYY/zenodo.0XXXXX
+\item[$A_2$] https://doi.org/ZZ.YYYY/zenodo.1XXXXX
+\item[$A_3$] https://doi.org/ZZ.YYYY/zenodo.2XXXXX
+\end{description}
+}
+
+\artexpl{
+Provide a table with the relevant computational artifacts, 
+highlight their relation to the contributions (from above) and 
+point to the elements in the paper that are reproducible by each artifact, e.g., 
+which figures or tables were generated with the artifact.
+}
+
+\artsampl{
+\begin{center}
+\begin{tabular}{rll}
+\toprule
+Artifact ID  &  Contributions &  Related \\
+             &  Supported     &  Paper Elements \\
+\midrule
+$A_1$   &  $C_1$ & Tables 1-2 \\
+        &        & Figure 3\\
+\midrule
+$A_2$   &  $C_2$ & Tables 2-3 \\
+        &        & Figures 1-2\\
+\midrule
+.. \\
+\bottomrule
+\end{tabular}
+\end{center}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Artifact Identification}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\artexpl{
+Provide the following six subsections for each computational artifact $A_i$.
+}
+
+\newartifact
+
+\artrel
+
+\artexpl{
+    Briefly explain the relationship between the artifact and contributions.
+}
+
+\artexp
+
+\artexpl{
+Provide a higher level description of what outcome to expect from the corresponding experiments. Provide an explanation of how the results substantiate the main contributions.
+}
+
+\artsampl{
+Algorithm A should be faster than Algorithms C and B in all GPU scenarios.    
+}
+
+\arttime
+
+\artexpl{
+Estimate the time required to reproduce the artifact, providing separate estimates for the individual steps: Artifact Setup, Artifact Execution, and Artifact Analysis.
+}
+
+\artsampl{
+The expected computational time of this artifact on GPU X is 20~min.    
+}
+
+\artin
+
+\artinpart{Hardware}
+
+\artexpl{
+Specify the hardware requirements and dependencies (e.g., a specific interconnect or GPU type is required).
+}
+
+\artinpart{Software}
+
+\artexpl{
+Introduce all required software packages, including the computational artifact. For each software package, specify the version and provide the URL.
+}
+
+\artinpart{Datasets / Inputs}
+
+\artexpl{
+Describe the datasets required by the artifact. Indicate whether the datasets can be generated, including instructions, or if they are available for download, providing the corresponding URL.
+}
+
+\artinpart{Installation and Deployment}
+
+\artexpl{
+Detail the requirements for compiling, deploying, and executing the experiments, including necessary compilers and their versions.
+}
+
+\artcomp
+
+\artexpl{
+Provide an abstract description of the experiment workflow of the artifact. It is important to identify the main tasks (processes) and how they depend on each other. 
+
+A workflow may consist of three tasks: $T_1, T_2$, and $T_3$. The task $T_1$ may generate a specific dataset. This dataset is then used as input by a computational task $T_2$, and the output of $T_2$ is processed by another task $T_3$, which produces the final results (e.g., plots, tables, etc.). State the individual tasks $T_i$ and provide their dependencies, e.g., $T_1 \rightarrow T_2 \rightarrow T_3$.
+
+Provide details on the experimental parameters. How and why were parameters set to a specific value (if relevant for the reproduction of an artifact), e.g., size of dataset, number of data points, input sizes, etc. Additionally, include details on statistical parameters, like the number of repetitions.
+}
+
+\artout
+
+\newartifact
+
+\artexpl{
+Provide the same type of information as done for Computational Artifact $A_1$.
+}
+
+
+% PMBS24: UNCOMMENT ONLY IF YOU HAVE AN AE APPENDIX
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %  AE Appendix
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+% \appendixAE
+
+% \arteval{1}
+% \artin
+
+% \artexpl{
+% Provide instructions for installing and compiling libraries and code. 
+% Offer guidelines on deploying the code to resources.
+% }
+
+% \artcomp
+
+% \artexpl{
+% Describe the experiment workflow. 
+% If encapsulated within a workflow description or equivalent (such as a makefile or script), clearly outline the primary tasks and their interdependencies. Detail the main steps in the workflow. Merely instructing to “Run script.sh” is inadequate.
+% }
+
+% \artout
+
+% \artexpl{
+% \begin{itemize}
+%     \item Provide a description of the expected results and a methodology for evaluating these results. 
+%     \item Explain how the expected results from the experiment workflow correlate with the contributions stated in the article. 
+%     \item For example, if the article presents results in a figure, the artifact evaluation should also produce a similar figure, depicting the same generalizable outcome. Authors must focus on these aspects to reduce the time required for others to understand and verify an artifact.
+% \end{itemize}
+% }
+
+
+% \arteval{2}
+% \artin
+% \artcomp
+% \artout
+
+\end{document}
